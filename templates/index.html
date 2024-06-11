@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Future Match Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Future Match Prediction</h1>
+        <form action="/get_predictions" method="post">
+            <label for="minutes">Minutes:</label>
+            <input type="text" id="minutes" name="minutes"><br><br>
+            <label for="three_point_attempts">Three Point Attempts:</label>
+            <input type="text" id="three_point_attempts" name="three_point_attempts"><br><br>
+            <label for="opponent">Opponent:</label>
+            <input type="text" id="opponent" name="opponent"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <h2>Upload CSV to Train Model</h2>
+        <form action="/train_model" enctype="multipart/form-data" method="post">
+            <input type="file" name="file"><br><br>
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+</body>
+</html>
