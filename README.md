@@ -16,6 +16,7 @@ Ce projet est une application web qui prédit le nombre de tirs à 3 points que 
 
 ## Structure du projet
 
+```
 curryCooking/
 ├── pycache/
 ├── models/
@@ -33,7 +34,7 @@ curryCooking/
 ├── README.md
 ├── requirements.txt
 └── Stephen_Curry_Stats.csv
-
+```
 
 ## Fonctionnalités
 
