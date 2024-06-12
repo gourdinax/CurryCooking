@@ -75,7 +75,9 @@ python app.py
 ## FastAPI :
 
 POST /predict_future : Prédire le nombre de tirs à 3 points.
+
 POST /train_model : Entraîner un nouveau modèle avec un fichier CSV.
+
 GET /model : Obtenir des prédictions à l'aide du modèle local et d'OpenAI.
 
 ## Flask :
