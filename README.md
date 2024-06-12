@@ -1,4 +1,4 @@
-# Prédiction des 3 Points de Stephen Curry
+# Prédiction des 3 Points de Stephen Curry 🏀
 
 Ce projet est une application web qui prédit le nombre de tirs à 3 points que Stephen Curry réalisera dans un match en fonction du nombre de minutes jouées et du nombre de tentatives de tirs à 3 points. L'application utilise FastAPI pour l'API de prédiction et Flask pour l'interface web. Le projet intègre également GPT-3.5 d'OpenAI pour des prédictions supplémentaires.
 
@@ -80,9 +80,9 @@ Le nouveau modèle sera stocké et utilisé pour les prédictions suivantes.
 
 Projet réalisé par : 
 
--   Axel Gourdin
--   Abdoula Jaiteh
--   William Girard-Reydet
+-   Axel Gourdin 👽
+-   Abdoula Jaiteh 🚀
+-   William Girard-Reydet 🏍️
 
 
 
