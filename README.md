@@ -4,18 +4,6 @@ Ce projet est une application web qui prédit le nombre de tirs à 3 points que 
 
 ## Structure du projet
 
-
-Voici un exemple de fichier README.md pour votre projet en français. Ce fichier présente le projet et fournit des instructions détaillées sur la façon de le configurer et de le faire fonctionner.
-
-README.md
-markdown
-Copier le code
-# Prédiction des 3 Points de Stephen Curry
-
-Ce projet est une application web qui prédit le nombre de tirs à 3 points que Stephen Curry réalisera dans un match en fonction du nombre de minutes jouées et du nombre de tentatives de tirs à 3 points. L'application utilise FastAPI pour l'API de prédiction et Flask pour l'interface web. Le projet intègre également GPT-3.5 d'OpenAI pour des prédictions supplémentaires.
-
-## Structure du projet
-
 ```
 curryCooking/
 ├── pycache/
